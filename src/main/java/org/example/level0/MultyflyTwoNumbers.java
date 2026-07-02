@@ -17,11 +17,4 @@ public class MultyflyTwoNumbers {
         return answer;
 
     }
-
-
-
-
-
-
-
 }
