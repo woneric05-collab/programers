@@ -1,0 +1,22 @@
+package org.example.level0;
+
+public class FindResult {
+    public static void main(String[] args) {
+        /*정수 num1, num2가 매개변수로 주어질 때,
+        num1을 num2로 나눈 몫을 return 하도록 solution 함수를 완성해주세요
+         */
+        int num1 = 10;
+        int num2 = 5;
+        System.out.println(soulution(num1 ,num2));
+    }
+    static int soulution(int num1, int num2){
+        int answer = 0;
+
+        if(num1 > 100 || num2 > 100){
+            System.out.println("잘못된 수 ");
+            return -1;
+        }
+        answer = num1 / num2;
+        return answer;
+    }
+}
